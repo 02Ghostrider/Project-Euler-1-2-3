@@ -44,6 +44,7 @@ var eulerProj002 = function() {
 
 //Function to find the largest prime number factor of an input value 'limit'
 //This function isn't very efficient and crashes browsers for an input value greater than 6 digits
+//For this there probably ought to be a control check on the input value size, but meh...
 var eulerProj003 = function() {
   var limit = document.getElementById('proThreeLim').value;
   var solution = limit;
